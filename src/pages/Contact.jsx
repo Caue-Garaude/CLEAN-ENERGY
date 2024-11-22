@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from 'react';
 
 const Contact = () => {
-  // Estado para armazenar os valores do formulário
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
 
-  // Carregar os dados do localStorage quando o componente for montado
+ 
   useEffect(() => {
     const savedData = JSON.parse(localStorage.getItem('contactFormData'));
     if (savedData) {
-      setFormData(savedData); // Preencher os campos com os dados salvos
+      setFormData(savedData); 
     }
   }, []);
 
-  // Função para atualizar o estado quando o usuário digitar algo
+ 
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData((prevData) => ({
@@ -25,14 +25,14 @@ const Contact = () => {
     }));
   };
 
-  // Função para lidar com o envio do formulário
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Salvar os dados no localStorage
+   
     localStorage.setItem('contactFormData', JSON.stringify(formData));
 
-    // Aqui você pode adicionar mais lógicas como enviar os dados para um servidor
+   
     alert('Dados salvos com sucesso!');
   };
 
