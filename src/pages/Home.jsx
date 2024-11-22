@@ -1,4 +1,5 @@
 import EnergyCarousel from "../components/Carousel";
+import { Link } from 'react-router-dom';
 
 
 const Home = () => (
@@ -9,7 +10,7 @@ const Home = () => (
         <p>
           Explore como as fontes de energia renováveis estão moldando o futuro sustentável do nosso planeta.
         </p>
-        <a href="/energy-types" className="btn btn-primary mt-3">Saiba Mais</a>
+        <Link to="/energy-types" className="btn btn-primary mt-3">Saiba Mais</Link>
       </div>
     </section>
     <section className="carousel-section py-5">
