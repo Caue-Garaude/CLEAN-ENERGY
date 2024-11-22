@@ -1,5 +1,5 @@
 const Footer = () => (
-    <footer className="bg-dark text-white py-3">
+    <footer className="bg-dark text-white pt-5">
       <div className="container text-center">
         <p>© 2024 Clean Energy. Todos os direitos reservados.</p>
         <ul className="list-inline">
