@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <main>
-      <section className="hero bg-light text-center py-10">
+      <section className="hero bg-light text-center py-7">
         <div className="container">
           <h2>Fale Conosco</h2>
           <p>Entre em contato para saber mais sobre energia limpa e como podemos ajudar.</p>
