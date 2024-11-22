@@ -8,10 +8,10 @@ const Header = () => (
         <img 
           src={logo} 
           alt="logo" 
-          height="40" // Define a altura do logotipo 
-          className="me-2" // Adiciona um pequeno espaçamento ao lado do logotipo
+          height="40" 
+          className="me-2" 
         />
-        <h1 className="mb-0 fs-4">Clean Energy</h1> {/* Define o tamanho e remove margens */}
+        <h1 className="mb-0 fs-4">Clean Energy</h1> 
       </Link>
       <button 
         className="navbar-toggler" 
