@@ -1,5 +1,6 @@
 import EnergyCarousel from "../components/Carousel";
 
+
 const Home = () => (
   <main>
     <section className="hero bg-light text-center py-5">
